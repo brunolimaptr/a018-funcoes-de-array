@@ -11,3 +11,8 @@ const produtos = [
     { nome: "Sabão em Pó", categoria: "Limpeza", preco: 10.80 }
  ]
  
+ const metades = produtos.filter((Limpeza) => {
+ return Limpeza.categoria === "Limpeza"
+ })
+
+ console.log(metades)
